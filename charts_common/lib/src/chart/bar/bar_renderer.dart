@@ -42,7 +42,7 @@ import 'base_bar_renderer_element.dart'
 class BarRenderer<D>
     extends BaseBarRenderer<D, BarRendererElement<D>, AnimatedBar<D>> {
   /// If we are grouped, use this spacing between the bars in a group.
-  final _barGroupInnerPadding = 2;
+  final _barGroupInnerPadding = 6;
 
   /// The padding between bar stacks.
   ///
